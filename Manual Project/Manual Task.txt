@@ -1,0 +1,129 @@
+Manual Task 
+Test Cases covering business rules :
+
+
+
+1) Verify user is redirected to PIN Verification page when enter Matched Thumbprint verification
+
+Test steps :
+- Click on Start
+- Enter Matched thumbprint verification
+
+Expected Output :
+User should be redirected to PIN Verification page successfully
+
+
+
+2) Verify user is redirected to ATM Transaction operation when entering valid PIN Verification
+
+Test steps :
+- Click on Start
+- Enter Matched thumbprint verification
+- Enter Valid PIN Verification
+
+Expected output :
+User should be redirected to ATM Transaction operation successfully
+
+
+
+3) Verify User is redirected to termination page when ATM Transaction is performed 
+
+Test steps :
+- Click on Start
+- Enter Matched thumbprint verification
+- Enter Valid PIN Verification
+- Perform the ATM Transaction
+
+Expected output :
+User should be redirected to the termination page successfully
+
+
+
+
+
+4) Verify user is able to receive a repeat Message Thumbprint verification when Thumbprint isn't matched
+
+Test steps :
+- Click on Start
+- Enter unmatched Thumbprint verification
+
+Expected output :
+A Repeat message should appear to the user to choose if he want to repeat the procces or don't want to procceed 
+
+
+
+
+5) Verify user is able to click on yes to repeat Thumbprint verification when Thumbprint isn't matched
+Test steps :
+- Click on Start
+- Enter unmatched Thumbprint verification
+- Click on yes after receiving unmatched message and repeat Button appear
+
+Expected Output : 
+User should be able to go to Thumbprint verification page again
+
+
+
+
+
+6) Verify user is able to click on No to refuse repeating Thumbprint verification when Thumbprint isn't matched and the user is redirected to the termination page
+
+Test steps :
+- Click on Start
+- Enter unmatched Thumbprint verification
+- Click on No after receiving unmatched message and repeat Button appear
+
+Expected Output : 
+User should be able to go to the termination page successfully
+
+
+
+7) Verify the user is redirected to the PIN Verification page again when entering invalid PIN for the first time
+
+Test steps :
+- Click on Start
+- Enter matched Thumbprint verification
+- Enter 1st Invalid PIN trial
+
+Expected Output :
+User shoud be redirected again to PIN Verification page again to enter a valid PIN
+
+
+
+
+8) Verify the user is redirected to the PIN Verification page again when entering invalid PIN for the Second time
+
+Test steps :
+- Click on Start
+- Enter matched Thumbprint verification
+- Enter Invalid PIN two times
+
+Expected Output :
+User shoud be redirected again to PIN Verification page again to enter a valid PIN
+
+
+
+
+9) Verify the user is redirected to the PIN Verification page again when entering invalid PIN for the Third time
+
+Test steps :
+- Click on Start
+- Enter matched Thumbprint verification
+- Enter Invalid PIN three times
+
+Expected Output :
+User shoud be redirected again to PIN Verification page again to enter a valid PIN
+
+
+
+10) Verify the user is redirected to termination page when entering invalid PIN that Exceed 3 trials
+
+Test Steps :
+- Click on Start
+- Enter matched Thumbprint verification
+- Enter Invalid PIN Four times
+
+Expected Output :
+User should be redirected to the termination page 
+
+
